@@ -20,6 +20,7 @@ If you do not want the rotated annotations and images make the "rotated_flag" fr
 Finally, please note that the script runs seperately for the train and validation set. You can choose on which set the script will run by choosing to comment and uncomment the lines 145 and 146. 
 To run it for the validation set comment the 145 line and uncomment 146 line. To run it for the training set uncomment the 145 line and comment the 146 line. The script can run for one subset each time. 
 
+After the trasformation process the outputs can be evaluated by running the test2coco.py script. In line 50 the destination path should be givven, while in lines 14 and 48 the user can choose between the validation and train set. 
 
 
 [1] T.-Y. Lin, M. Maire, S. Belongie, J. Hays, P. Perona, D. Ramanan, P. Doll ́ar, and C. L. Zitnick, “Microsoft COCO: Common Objects in Context,” in proc. Eur. Conf. Computer Vision, pp. 740–755, 2014.
