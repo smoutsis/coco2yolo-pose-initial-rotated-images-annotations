@@ -1,0 +1,1 @@
+# coco2yolo-pose-initial-rotated-images-annotations
